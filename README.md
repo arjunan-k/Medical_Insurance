@@ -53,14 +53,14 @@ The insights drawn by performing `Data Analysis` are:
  E) Find the best algorithm <br>
  
 # MODEL EVALUATION 
-| Score | LinearRegression | DecisionTree | RandomForest | Ridge |
-| ----------- | ----------- | ----------- | ----------- | ----------- |
-| R2 | 0.77 | 0.78 | 0.78 | 0.86 |
-| Train Accuracy | 0.74 | 1.0 | 0.97 | 0.74 |
-| MAE | 4305.20 | 2798.83 | 2608.55 | 4311.10 |
-| Test Accuracy | 0.77 | 0.78 | 0.86 | 0.77 | 
-| RMSE | 6209.88 | 6067.50 | 4841.88 | 6238.13 |
- 
+| Score | LinearRegression | DecisionTree | RandomForest | Ridge | Lasso |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ------------ | 
+| R2 | 0.77 | 0.78 | 0.78 | 0.86 | dff | 
+| MSE | 0.77 | 0.78 | 0.86 | 0.77 | 514 |
+| MAE | 4305.20 | 2798.83 | 2608.55 | 4311.10 | 45 |
+| RMSE | 6209.88 | 6067.50 | 4841.88 | 6238.13 | 54 |
+| RMSLE | 0.77 | 0.78 | 0.86 | 0.77 | 562 |
+
 # CONCLUSION
 Based on the predictive modeling, Linear Regression algorithm has the best score compared to the others, with MAE Score 2824, RMSE Score 4347, & R2 Score 88.13%. <br>
 Therefore, Linear Regression algorithm is the best fitted model.
