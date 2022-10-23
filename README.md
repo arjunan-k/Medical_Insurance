@@ -62,5 +62,5 @@ The insights drawn by performing `Data Analysis` are:
 | RMSLE | 8.377 | 8.952 | 8.395 | 8.635 | 8.634 |
 
 # CONCLUSION
-Based on the predictive modeling, Linear Regression algorithm has the best score compared to the others, with MAE Score 2824, RMSE Score 4347, & R2 Score 88.13%. <br>
+Based on the predictive modeling, Linear Regression algorithm has the best score compared to the others. <br.
 Therefore, Linear Regression algorithm is the best fitted model.
