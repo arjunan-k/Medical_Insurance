@@ -1,4 +1,4 @@
-<h1><p align = "center"> Medical Insurance Cost Prediction</p></h1>
+# <p align = "center"> MEDICAL INSURANCE COST PREDICTION</p>
 
 # PROJECT OVERVIEW
 Health insurance costs have risen dramatically over the past decade in response to the rising cost of health care services and are determined by a multitude of factors. Let's look at the cost of healthcare for a sample of the population given age, sex, bmi, number of children, smoking habits, and region.
@@ -9,7 +9,7 @@ The purpose of this project is to determine the contributing factors and predict
 • Seek insight from the dataset with Exploratory Data Analysis <br>
 • Performed Data Processing, Data Engineering and Feature Transformation to prepare data before modeling <br>
 • Built a model to predict Insurance Cost based on the features <br>
-• Evaluated the model using various Performance Metrics like RMSE, R2, Testing Accuracy, Training Accuracy and MAE <br>
+• Evaluated the model using various Performance Metrics like MSE, MAE, RMSE, RMSLE and R2<br>
 
 # DATA DESCRIPTION
 1. age: age of primary beneficiary
@@ -23,21 +23,14 @@ objective index of body weight (kg / m ^ 2) using the ratio of height to weight,
 
 Data source : https://www.kaggle.com/mirichoi0218/insurance
 
-# EXPLORATORY DATA ANALYSIS (EDA)
-• Feature sex, region has an almost balanced amount, meanwhile most people are non smoker & obese <br>
-![image](https://user-images.githubusercontent.com/80570935/130601931-826570ec-df1d-4b85-918f-00eb740ed212.png)
-
-• A person who smoke and have BMI above 30 tends to have a higher medical cost <br>
-![image](https://user-images.githubusercontent.com/80570935/130602334-b62a7f7e-e1c8-45eb-be7d-ff752853d158.png)
-
-• Older people who smoke have more expensive charges <br>
-![image](https://user-images.githubusercontent.com/80570935/130602565-2cb73fa9-769b-4822-880e-c009d2fbef39.png)
-
-• People who smoke and obese have the highest average charges compared to others <br>
-![image](https://user-images.githubusercontent.com/80570935/130602770-c008fb2b-2041-440e-b92e-373e7cbed2ce.png)
+# DATA ANALYSIS (EDA)
+* Feature sex, region has an almost balanced amount, meanwhile most people are non smoker & obese
+* A person who smoke and have BMI above 30 tends to have a higher medical cost
+* Older people who smoke have more expensive charges
+* People who smoke and obese have the highest average charges compared to others
 
 # INSIGHTS
-The insights drawn by performing `Exploratory Data Analysis` (EDA) are:
+The insights drawn by performing `Data Analysis` are:
 
 - Most people are a non smokers & obese.
 - Feature sex, region has an almost balanced amount.
@@ -55,9 +48,9 @@ The insights drawn by performing `Exploratory Data Analysis` (EDA) are:
 5. Modeling: <br>
  A) Separating target & features <br>
  B) Splitting train & test data <br>
- C) Modeling using Linear Regression, Random Forest, Decision Tree, Ridge, & Lasso algorithm <br>
- D) Find the best algorithm <br>
- E) Tuning Hyperparameter <br>
+ C) Modeling using Linear Regression, Decision Tree, Random Forest, Ridge Regression and Lasso Regression <br>
+ D) Feature Importance Ranking <br>
+ E) Find the best algorithm <br>
  
 # MODEL EVALUATION 
 | Score | LinearRegression | DecisionTree | RandomForest | Ridge |
@@ -69,5 +62,5 @@ The insights drawn by performing `Exploratory Data Analysis` (EDA) are:
 | RMSE | 6209.88 | 6067.50 | 4841.88 | 6238.13 |
  
 # CONCLUSION
-Based on the predictive modeling, Linear Regression algorithm has the best score compared to the others, with MAE Score 4305.20, RMSE Score 6209.88, & R2 Score 0.77. <br>
-Therefore, Linear Regression algorithm is the best fitted model based on the training and testing accuracy.
+Based on the predictive modeling, Linear Regression algorithm has the best score compared to the others, with MAE Score 2824, RMSE Score 4347, & R2 Score 88.13%. <br>
+Therefore, Linear Regression algorithm is the best fitted model.
