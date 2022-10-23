@@ -55,11 +55,11 @@ The insights drawn by performing `Data Analysis` are:
 # MODEL EVALUATION 
 | Score | LinearRegression | DecisionTree | RandomForest | Ridge | Lasso |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ------------ | 
-| R2 | 0.77 | 0.78 | 0.78 | 0.86 | dff | 
-| MSE | 0.77 | 0.78 | 0.86 | 0.77 | 514 |
-| MAE | 4305.20 | 2798.83 | 2608.55 | 4311.10 | 45 |
-| RMSE | 6209.88 | 6067.50 | 4841.88 | 6238.13 | 54 |
-| RMSLE | 0.77 | 0.78 | 0.86 | 0.77 | 562 |
+| R2 | 88.13 | 62.54 | 87.70 | 80.13 | 80.16 | 
+| MSE | 18895160 | 59610327 | 19571921 | 31620411 | 31569154 |
+| MAE | 2824 | 3964 | 2647 | 3883 | 3872 |
+| RMSE | 4347 | 7721 | 4424 | 5623 | 5619 |
+| RMSLE | 8.377 | 8.952 | 8.395 | 8.635 | 8.634 |
 
 # CONCLUSION
 Based on the predictive modeling, Linear Regression algorithm has the best score compared to the others, with MAE Score 2824, RMSE Score 4347, & R2 Score 88.13%. <br>
