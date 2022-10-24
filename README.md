@@ -3,13 +3,13 @@
 # PROJECT OVERVIEW
 Health insurance costs have risen dramatically over the past decade in response to the rising cost of health care services and are determined by a multitude of factors. Let's look at the cost of healthcare for a sample of the population given age, sex, bmi, number of children, smoking habits, and region.
 
-The purpose of this project is to determine the contributing factors and predict health insurance cost by performing exploratory data analysis and predictive modeling on the Health Insurance dataset. This project makes use of Numpy, Pandas, Sci-kit learn, and Data Visualization libraries.
+The purpose of this project is to determine the contributing factors and predict health insurance cost by performing exploratory data analysis using Tableau and predictive modeling on the Health Insurance dataset. This project makes use of Numpy, Pandas, Sci-kit learn, and Data Visualization libraries.
 
-<b>Overview:</b> <br>
-• Seek insight from the dataset with Exploratory Data Analysis <br>
-• Performed Data Processing, Data Engineering and Feature Transformation to prepare data before modeling <br>
-• Built a model to predict Insurance Cost based on the features <br>
-• Evaluated the model using various Performance Metrics like MSE, MAE, RMSE, RMSLE and R2<br>
+**Overview:**
+* Seek insight from the dataset with Exploratory Data Analysis using Tableau
+* Performed Data Processing, Data Engineering and Feature Transformation to prepare data before modeling
+* Built a model to predict Insurance Cost based on the features
+* Evaluated the model using various Performance Metrics like MSE, MAE, RMSE, RMSLE and R2
 
 # DATA DESCRIPTION
 1. age: age of primary beneficiary
@@ -23,20 +23,16 @@ objective index of body weight (kg / m ^ 2) using the ratio of height to weight,
 
 Data source : https://www.kaggle.com/mirichoi0218/insurance
 
-# DATA ANALYSIS (EDA)
-* Feature sex, region has an almost balanced amount, meanwhile most people are non smoker & obese
-* A person who smoke and have BMI above 30 tends to have a higher medical cost
-* Older people who smoke have more expensive charges
-* People who smoke and obese have the highest average charges compared to others
-
 # INSIGHTS
-The insights drawn by performing `Data Analysis` are:
+The insights drawn by performing `Data Analysis Using Tableau` are:
 
-- Most people are a non smokers & obese.
-- Feature sex, region has an almost balanced amount.
-- People who smoke & have a higher BMI, has higher medical charges.
-- Older people who smoke have more expensive charges.
-- An obese person who smokes have higher charges.
+* Features like Sex and Region has an almost balanced distribution.
+* Majority of the policyholders fall in Overweight and Obese category.
+* Most of the policyholders are Non-Smokers.
+* Highest number of policyholders are in the range of 18 to 22 years old.
+* A person who smokes and have a BMI above 30 (Obese) tends to have a higher medical cost.
+* Older people who smoke have more expensive charges.
+* Most of the policyholders have 1 to 2 children as dependencies.
 
 # DATA PROCESSING 
 1. Check missing value - there are none <br>
