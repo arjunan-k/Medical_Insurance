@@ -58,5 +58,5 @@ The insights drawn by performing `Data Analysis Using Tableau` are:
 | RMSLE | 8.377 | 8.952 | 8.395 | 8.635 | 8.634 |
 
 # CONCLUSION
-Based on the predictive modeling, Linear Regression algorithm has the best score compared to the others. <br>
+Based on the predictive modeling, Linear Regression (Fitted Polynomial Regression of Degree 2) algorithm has the best score compared to the others. <br>
 Therefore, Linear Regression algorithm is the best fitted model.
