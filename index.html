@@ -1,0 +1,295 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Arjunan K - Medical Analysis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images\favicon.jpg">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>MEDICAL INSURANCE ANALYSIS<br />
+						TABLEAU</h1>
+						<p>Health insurance costs have risen dramatically over the past decade in response to the rising cost of health care services. Let's dive deeper into Medical Insurance EDA by Arjunan K.<br>
+
+							<br>
+
+
+						</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+
+
+				<div class="textbox" style="margin:auto; width:1100px; padding:60px; background-color: white; border-radius:60px;">
+					<h2>PROJECT OVERVIEW</h2>
+					<p>The purpose of this project is to determine the contributing factors in health insurance cost by performing
+						exploratory data analysis on the Health Insurance dataset. After that I will provide some business solutions to improve the Insurance Sales.</p>
+					<h2>DATA DESCRIPTION</h2>
+					<ul>
+						<li>age: Age of primary beneficiary.</li>
+						<li>sex: Insurance contractor gender, Male/Female.</li>
+						<li>bmi: Body Mass Index, providing an understanding of body, weights that are relatively high or low relative to height,
+							objective index of body weight (kg / m ^ 2) using the ratio of height to weight, ideally 18.5 to 24.9.</li>
+						<li>children: Number of children covered by health insurance / Number of dependents.</li>
+						<li>smoker: Smoking, Yes/No.</li>
+						<li>region: Beneficiary's residential area in the US, Northeast/Southeast/Southwest/Northwest.</li>
+						<li>charges: Individual medical costs billed by health insurance.</li>
+						<li>weight status: <br>
+							BMI <= 18.5 -- Underweight <br>
+							18.5 < BMI <= 25 -- Healthy <br>
+							25 < BMI <= 30 -- Overweight <br>
+							BMI > 30 -- Obese</li>
+						<li><a href="https://www.kaggle.com/mirichoi0218/insurance">Data Source</a></li>
+					</ul>
+				</div>
+
+
+
+<!-- use this code in tableau embeded -->
+<!-- style="width:800px; margin:0 auto;" -->
+
+<div class='tableauPlaceholder' id='viz1665902061864' style="width:800px; margin:auto; margin-top:100px; margin-bottom:100px;"><noscript><a href='#'><img alt='MEDICAL INSURANCE ANALYSIS ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MedicalInsuranceAnalysis_16629054215860&#47;MIAStory&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MedicalInsuranceAnalysis_16629054215860&#47;MIAStory' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MedicalInsuranceAnalysis_16629054215860&#47;MIAStory&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1665902061864');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1366px';vizElement.style.height='2627px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+
+
+				<div class="textbox" style="margin:auto; width:1100px; padding:60px; background-color: white; border-radius:60px;">
+					<h2>INSIGHTS FROM EXPLORATORY DATA ANALYSIS</h2>
+					<ul>
+						<li>Features like Sex and Region has an almost balanced distribution.</li>
+						<li>Majority of the policyholders fall in Overweight and Obese category.</li>
+						<li>Most of the policyholders are Non-Smokers.</li>
+						<li>Highest number of policyholders are in the range of 18 to 22 years old.</li>
+						<li>A person who smokes and have a BMI above 30 (Obese) tends to have a higher medical cost.</li>
+						<li>Older people who smoke have more expensive charges.</li>
+						<li>Most of the policyholders have 1 to 2 children as dependencies.</li>
+					</ul>
+					<h2>BUSINESS SOLUTIONS</h2>
+					Considering from the business side of Medical Insurance, in order to improve sales we can:
+					<ul>
+						<li>Give awareness about the importance of insurance to the people who smoke.</li>
+						<li>Approach the people who are underweight and healthy.</li>
+						<li>Try to market people under 13 and above 70 years of age.</li>
+						<li>Hit people with bigger family size, having much more dependencies.</li>
+						<li>Give some better insurance plans to healthy and non smoking peoples.</li>
+					</ul>
+					<h2>General Ideas</h2>
+					<ul>
+						<li>Give fewer options (More choices given to people, the less likely they are to purchase something).</li>
+						<li>Provide options for personalizing the insurance for customers.</li>
+						<li>Create a Referral System to get clients from current ones.</li>
+						<li>Build a Pyramid Scheme to make the current users work for us.</li>
+						<li>Study the performance of Competitors.</li>
+						<li>Provide less paper work (More Digital).</li>
+						<li>Give Faster and Easier options to start an Insurance.</li>
+						<li>Launch an Email Campaign.</li>
+						<li>Advertise Online.</li>
+						<li>Filter the Online Reviews/Videos.</li>
+						<li>Partnerships with Indirect Competitors having an audience we want.</li>
+					</ul>
+					<h2 style="text-align: center;">THANK YOU</h2>
+				</div>
+
+
+
+				<!-- Header -->
+					<!-- <header id="header">
+						<a href="index.html" class="logo">Massively</a>
+					</header> -->
+
+				<!-- Nav -->
+					<!-- <nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">This is Massively</a></li>
+							<li><a href="generic.html">Generic Page</a></li>
+							<li><a href="elements.html">Elements Reference</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav> -->
+
+				<!-- Main -->
+
+					<!-- <div id="main"> -->
+
+						<!-- Featured Post -->
+							<!-- <article class="post featured">
+									<div class='tableauPlaceholder' id='viz1662824152264' style='position: relative'><noscript><a href='#'><img alt='STARBUCKS ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StarbucksAnalysis_16628222364950&#47;STARBUCKS&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='StarbucksAnalysis_16628222364950&#47;STARBUCKS' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StarbucksAnalysis_16628222364950&#47;STARBUCKS&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1662824152264');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='827px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+							</article> -->
+
+						<!-- Posts -->
+							<!-- <section class="posts">
+								<article>
+									<header>
+										<span class="date">April 24, 2017</span>
+										<h2><a href="#">Sed magna<br />
+										ipsum faucibus</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 22, 2017</span>
+										<h2><a href="#">Primis eget<br />
+										imperdiet lorem</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 18, 2017</span>
+										<h2><a href="#">Ante mattis<br />
+										interdum dolor</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 14, 2017</span>
+										<h2><a href="#">Tempus sed<br />
+										nulla imperdiet</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 11, 2017</span>
+										<h2><a href="#">Odio magna<br />
+										sed consectetur</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 7, 2017</span>
+										<h2><a href="#">Augue lorem<br />
+										primis vestibulum</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+							</section> -->
+
+						<!-- Footer -->
+						<!-- <footer>
+								<div class="pagination">
+									<a href="#" class="page active">1</a>
+									<a href="#" class="page">2</a>
+									<a href="#" class="page">3</a>
+									<span class="extra">&hellip;</span>
+									<a href="#" class="page">8</a>
+									<a href="#" class="page">9</a>
+									<a href="#" class="page">10</a>
+									<a href="#" class="next">Next</a>
+								</div>
+							</footer> -->
+
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+						<!-- <section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>1234 Somewhere Road #87257<br />
+								Nashville, TN 00000-0000</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(000) 000-0000</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">info@untitled.tld</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section> -->
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<!-- <ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul> -->
+					</div> -->
+				</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
